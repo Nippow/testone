@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/moyenne_tab.h
+iostream
+-
+
+../include/saisie_tab.h
+iostream
+-
+
+/home/nippo/Documents/src/moyenne_tab.cpp
+moyenne_tab.h
+/home/nippo/Documents/src/moyenne_tab.h
+
+/home/nippo/Documents/src/saisie_tab.cpp
+saisie_tab.h
+/home/nippo/Documents/src/saisie_tab.h
+
+/home/nippo/Documents/src/tableaux.cpp
+saisie_tab.h
+/home/nippo/Documents/src/saisie_tab.h
+moyenne_tab.h
+/home/nippo/Documents/src/moyenne_tab.h
+
