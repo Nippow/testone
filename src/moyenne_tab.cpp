@@ -9,5 +9,5 @@ int moyenne (int tab[], int N)
 		somme = somme + tab[i];
 	}
 
-	return (somme/N);
+	return (somme/N); //retourne un entier !
 }
